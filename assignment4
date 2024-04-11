@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSCE 190: Andrew Evans</title>
+    <style>
+        div{text-align:center}
+        body{background-color: bisque;}
+        img{border-radius: 20px;
+            border: 3px brown dotted;}
+        span{
+            color: blue;
+        }
+        p{width: 50%;
+          margin: auto;
+          text-align: justify;}
+    </style>
+  </head>
+<body>
+<div>
+ <h3>here is my resume</h3>
+      <a href="resume.docx">Suprawee's resume</a>
+    </div>
+    
+  </body>
+</html>
