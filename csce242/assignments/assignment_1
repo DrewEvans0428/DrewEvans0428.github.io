@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--My NBA Site-->
+        <title>NBA</title>
+    </head>
+    <body>
+        <h1>Best NBA Players</h1>
+        <h2>By: Drew Evans</h2>
+        <p>
+
+        </p>
+        <p>
+
+        </p>
+        <h2>Top 10 NBA Players(Today)</h2>
+        <ol>
+            <li>1. Nikola Jokic</li>
+            <li>2. Luka Doncic</li>
+            <li>3. Joel Embiid</li>
+            <li>4. Shai Gilgeous Alexander</li>
+            <li>5. Giannis Antetekoumpo</li>
+            <li>6. Jayson Tatum</li>
+            <li>7. Anthony Edwards</li>
+            <li>8. Stephen curry</li>
+            <li>9. Kevin Durant</li>
+            <li>10. Lebron James</li>
+        </ol>
+    </body>
+</html>
