@@ -1,0 +1,20 @@
+/*Note how to comment within CSS*/
+/*Structure*/
+body {
+    background:violet;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    background: white;
+    padding:5px;
+    margin:20px auto;
+    width: 70%;
+}
+
+h1 {
+    color:red;
+}
+
+p{
+    color:blue;
+}
