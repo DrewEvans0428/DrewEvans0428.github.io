@@ -1,13 +1,26 @@
 /*Structure*/
 body{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: cursive;
     background:url(images/drew_background.jpg);
 }
 
 #main{
-    background: rgba(245,245,220,0.8);
+    background: rgba(11, 48, 11, 0.8);
     width: 80%;
     margin: auto;
     padding: 0px;
     border-radius: 5px;
+}
+
+#main-nav a{
+    text-decoration: none;
+    background: white;
+    color: rgb(11, 48, 11);
+    padding: 2px;
+    border-radius: 2px;
+}
+
+#main-nav a:hover{
+background-color: white;
+color: darkgreen;
 }
