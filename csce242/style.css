@@ -1,0 +1,13 @@
+/*Structure*/
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background:url(images/drew_background.jpg);
+}
+
+#main{
+    background: rgba(245,245,220,0.8);
+    width: 80%;
+    margin: auto;
+    padding: 0px;
+    border-radius: 5px;
+}

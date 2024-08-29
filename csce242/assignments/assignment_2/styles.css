@@ -1,0 +1,57 @@
+/*Structure*/
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url(images/nfl_background.jpg);
+}
+
+#content{
+    background: rgba(245,245,220,0.8);
+    width: 70%;
+    margin: auto;
+    padding: 0px;
+    border-radius: 8px;
+}
+
+/*Navigation*/
+
+#main-nav a{
+    text-decoration: none;
+    background: olive;
+    color: black;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+#main-nav a:hover{
+background-color: white;
+color: darkgreen;
+}
+
+/*Images*/
+img{
+    padding: 8px;
+    border: 6px solid olive;
+    border-radius: 6px;
+}
+/*Table*/
+table{
+    border-collapse:collapse;
+}
+th,td{
+    border: 3px solid darkgreen;
+    padding: 5px right;
+    background-color: grey;
+}
+
+
+h1{
+    font-style: italic;
+}
+
+h2{
+    color: darkgreen;
+}
+
+#stats-header{
+    font-style: oblique;
+}
