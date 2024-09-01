@@ -12,15 +12,82 @@ body{
     border-radius: 5px;
 }
 
-#main-nav a{
+#main-header, #main-footer{
+    background: lightgreen;
+    padding: 6px;
+}
+
+#main-header {
+    border-radius: 5px 5px 0 0;
+}
+
+#main-footer{
+    border-radius: 0 0 5px 5px;
+}
+
+#page-content {
+    background: forestgreen;
+    padding: 5px;
+    border-radius: 7px 0;
+}
+
+.section-1, .section-2, .section-3 {
+    background: darkgreen;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.image-1-of-3,
+.image-2-of-3,
+.image-3-of-3{
+    background-color: forestgreen;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    align-items: center;
+}
+
+
+#main-nav a, 
+.flex-container{
     text-decoration: none;
     background: white;
     color: rgb(11, 48, 11);
     padding: 2px;
     border-radius: 2px;
+    display: inline-block;
+    text-align: center;
 }
 
 #main-nav a:hover{
 background-color: white;
 color: darkgreen;
+}
+
+h1, h2, p, a{
+    text-align: center;
+}
+
+#section-1 {
+    background: violet;
+    padding: 5px;
+    border-radius: 7px 0;
+}
+/*Larger Resolutions*/
+#main-header h1{
+    text-align: center;
+}
+@media (min-width: 900px){
+    #main-nav ul,
+    .flex-container{
+        display: flex;
+    }
+}
+
+#page-content{
+    flex: 1;
+}
+
+#section-1, .section-2, .section-3{
+    flex:1;
 }
