@@ -1,13 +1,18 @@
 /* Structure */
 body {
-    background-color: darkred;
+    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#content {
+#main-header {
     background:black;
     color: white;
     display: flexbox;
+}
+
+#sub-header{
+    background: darkred;
+    color: white;
 }
 
 .columns-all {
@@ -20,33 +25,65 @@ img {
 /* Header */
 #main-header {
     position:relative;
+    flex-direction: row;
 }
+
 
 #main-img {
     margin-right:5px;
 }
 
+#davis-college{
+    max-width: fit-content;
+}
+
+#lab-image{
+    position: absolute(margin-left);
+    vertical-align: middle;
+}
+
 /* Login Menu */
-#login-menu {
+ .banner-options {
+    display: flex;
     width:fit-content;
     position:absolute;
     top:3%;
     right:3%;
+    list-style-type: none;
 }
 
-#login-menu ul {
+.banner-options a{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#login-menu ul, .bottom-row ul {
     display:none;
     padding-left:0;
 }
 
-#login-menu li {
+#login-menu li, .bottom-row li {
     list-style-type: none;
-    padding:5px;
+    padding:10px;
 }
 
-#login-menu a {
+#login-menu a, .bottom-row a {
+    background: darkred;
     text-decoration: none;
-    color:blueviolet;
+    color:white;
+    padding: 5px;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    padding-left: 10px;
+}
+
+#admissions h1{
+    flex: 1;
+    background: darkred;
+    color: white;
 }
 
 #login-menu a:hover {
@@ -57,24 +94,123 @@ img {
 /* Larger Resolutions */
 @media only screen and (min-width:600px) {
     #content {
-        width:70%;
+        width:100%;
         margin:auto;
         flex-direction: row;
     }
 
-    .columns, .bottom-collumns {
+    #banner{
+        flex: 1;
+    }
+
+    .columns, .bottom-row {
         display:flex;
         flex-direction: row;
     }
-    .bottom-collumns li{
+    .bottom-row li{
         flex-direction: row;
+    }
+    .bottom-row a {
+        text-decoration: none;
+        display: flex;
+        color: white;
     }
 
     #settings {
         display:none;
     }
 
-    #login-menu ul, .bottom-collumns {
+    #login-menu ul, .bottom-row {
         display:flex;
+    }
+    #row-mod{
+        display: flex;
+        background: darkred;
+        color: white;
+    }
+    .second-heading{
+        flex: 1;
+        background: darkred;
+        color: white;
+        font-family: "Berlingske Sans Extracondensed", "Impact", sans-serif;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: clamp(37.5px,(7vw + 1rem), 76px);
+        letter-spacing: 1.6px;
+        display: inline-block;
+        padding-right: 150px;
+        margin-left: 70px;
+        text-wrap: below;
+    }
+
+    .second-intro{
+        font-size: min((1rem + 1vw), 21px);
+    font-weight: 700;
+    margin: 1rem 0 2rem 0;
+    display: block;
+    padding-left: 150px;
+    padding-right: 150px;
+    }
+
+    .davis-content{
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .explore{
+        background: darkred;
+        color: white;
+        text-wrap: below;
+    }
+
+    .degree-programs, .degree-info{
+        padding-left: 800px;
+        float: right;
+        text-align: center;
+        word-wrap: break-word;
+    }
+    .investment{
+        background: grey;
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 100px;
+    }
+
+    .education-heading{
+        color: darkred;
+    }
+
+    .button{
+        background: darkred;
+        color: white;
+        padding: 0%;
+        box-sizing: content-box;
+        border-width: 0cap;
+    }
+
+    .tuition-box{
+        background: white;
+        text-align: center;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    .tuition-head{
+        color: darkred;
+    }
+
+    .image-display li{
+        flex-direction: column;
+        flex: 1;
+        display: list-item;
+    }
+
+    .li-image{
+        position: relative;
+        overflow: hidden;
+    }
+
+    .li-head{
+        color: darkred;
     }
 }
