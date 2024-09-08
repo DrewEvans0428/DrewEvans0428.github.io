@@ -42,6 +42,18 @@ img {
     vertical-align: middle;
 }
 
+#cap{
+    float: left;
+    align-items: flex-start;
+}
+
+#four-images{
+    margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
 /* Login Menu */
  .banner-options {
     display: flex;
@@ -99,7 +111,7 @@ img {
         flex-direction: row;
     }
 
-    #banner{
+    .banner{
         flex: 1;
     }
 
@@ -170,7 +182,7 @@ img {
         word-wrap: break-word;
     }
     .investment{
-        background: grey;
+        background: lightgrey;
         text-align: center;
         padding-left: 50px;
         padding-right: 50px;
@@ -184,7 +196,7 @@ img {
     .button{
         background: darkred;
         color: white;
-        padding: 0%;
+        padding: 15px 32px;
         box-sizing: content-box;
         border-width: 0cap;
     }
@@ -199,10 +211,11 @@ img {
         color: darkred;
     }
 
-    .image-display li{
+    .four-images{
         flex-direction: column;
         flex: 1;
         display: list-item;
+        text-decoration: none;
     }
 
     .li-image{
@@ -213,4 +226,11 @@ img {
     .li-head{
         color: darkred;
     }
+    .next-step{
+        background: black;
+        text-align: center;
+        color: white;
+    }
+
+    
 }
