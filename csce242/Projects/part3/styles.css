@@ -1,0 +1,65 @@
+#main-header{
+    align-items: center;
+}
+
+h1, h3{
+    text-align: center;
+}
+
+
+
+li{
+    float: left;
+    padding: 20px;
+    margin-right: 18%;
+    display: block;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a :hover{
+    color: red;
+}
+
+#image-home, #poke-pics, #bj-pics, #soli-pics, #spades-pics{
+    position: relative;
+    border-radius: 8%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.display-options{
+    flex: 1;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#game-options{
+    display: inline-block;
+    padding: 10px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.image-game-options{
+    display: inline;
+    padding: 10px;
+}
+#display-options{
+    float: left;
+    padding: 10px;
+    margin-right: 18%;
+    display: block;
+}
+
+
+
+#soli-content, #bj-content, #spades-content, #poke-content{
+    text-size-adjust: 20px;
+    padding: 25px;
+    
+}

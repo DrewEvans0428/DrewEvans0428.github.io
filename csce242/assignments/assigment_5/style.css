@@ -9,6 +9,15 @@
     height: 100%;
   }
 
+  .three {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+  }
+
   .slidecontainer{
     width: 100%;
   }
@@ -35,8 +44,16 @@
     cursor: pointer;
   }
 
-  #slider-image{
+
+  .slidecontainer{
     position: relative;
+    width: 100%;
+    height: 400px;
+  }
+
+
+  #slider-image{
+    position: inherit;
   }
 
   @media only screen and (min-width: 600px) {

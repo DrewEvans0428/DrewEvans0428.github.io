@@ -31,7 +31,7 @@ body{
     border-radius: 7px 0;
 }
 
-.section-1, .section-2, .section-3 , .section-4, .project-1, .project-2{
+.section-1, .section-2, .section-3 , .section-4, .section-5, .project-1, .project-2{
     background: darkgreen;
     padding: 5px;
     border-radius: 5px;
@@ -40,7 +40,8 @@ body{
 .image-1-of-3,
 .image-2-of-3,
 .image-3-of-3,
-.image-4-of-4
+.image-4-of-4,
+.image-5-of-5
 ,.project-part-1-image,
 .project-part-2-image{
     background-color: forestgreen;
