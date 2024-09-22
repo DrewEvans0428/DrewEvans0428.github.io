@@ -1,9 +1,19 @@
+.body{
+    background: url(images/cards.jpg);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#content{
+    background: rgba(245,245,220,0.5);
+}
+
 #main-header{
     align-items: center;
 }
 
-h1, h3{
+h1, h2{
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -24,6 +34,9 @@ a :hover{
     color: red;
 }
 
+#contact-us{
+    right: 0px;
+}
 #image-home, #poke-pics, #bj-pics, #soli-pics, #spades-pics{
     position: relative;
     border-radius: 8%;
@@ -45,14 +58,24 @@ a :hover{
     text-decoration: none;
 }
 
+#game-options{
+    background: #e31b22;
+    opacity: 0.8;
+    color: black;
+}
+
+
+
 .image-game-options{
     display: inline;
-    padding: 10px;
+    padding: 5px;
 }
-#display-options{
-    float: left;
+
+
+
+#display-options, #image-game-options{
     padding: 10px;
-    margin-right: 18%;
+    margin-right: 5%;
     display: block;
 }
 
@@ -62,4 +85,24 @@ a :hover{
     text-size-adjust: 20px;
     padding: 25px;
     
+}
+
+
+
+
+@media only screen and (min-width:600px) {
+    .content {
+        width:100%;
+        margin:auto;
+        flex-direction: row;
+        flex: 1;
+    }
+
+    .image-game-options{
+        padding: 10px;
+        
+        background: black;
+    }
+
+  
 }
