@@ -4,7 +4,7 @@
 }
 
 #content{
-    background: rgba(245,245,220,0.5);
+   background: rgba(184, 54, 56, 0.94);
 }
 
 #main-header{
@@ -30,8 +30,9 @@ a{
     text-decoration: none;
 }
 
-a :hover{
+#game-options a :hover{
     color: red;
+    text-decoration: underline;
 }
 
 #contact-us{
@@ -61,7 +62,26 @@ a :hover{
 #game-options{
     background: #e31b22;
     opacity: 0.8;
-    color: black;
+}
+
+.poker-content{
+    background: rgba(184, 54, 56, 0.94);
+    padding: 10px;
+}
+
+.soli-content{
+    background: rgba(184, 54, 56, 0.94);
+    padding: 10px;
+}
+
+.spades-content{
+    background: rgba(184, 54, 56, 0.94);
+    padding: 10px;
+}
+
+.bj-content{
+    background: rgba(184, 54, 56, 0.94);
+    padding: 10px;
 }
 
 
@@ -75,7 +95,6 @@ a :hover{
 
 #display-options, #image-game-options{
     padding: 10px;
-    margin-right: 5%;
     display: block;
 }
 
@@ -101,7 +120,6 @@ a :hover{
     .image-game-options{
         padding: 10px;
         
-        background: black;
     }
 
   

@@ -52,6 +52,16 @@
     content: '';
 }
 
+#image-selector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image-container{
+    margin-top: 20px;
+}
+
 
 
 @media (max-width: 600px){
