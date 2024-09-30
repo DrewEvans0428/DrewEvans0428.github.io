@@ -1,0 +1,127 @@
+body{
+    font-family: fantasy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: turquoise;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 20px;
+    color: coral;
+}
+
+main{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.star-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#amt-stars{
+    padding: 5px;
+    margin: 5px 0;
+   
+}
+
+#draw-button {
+    padding: 8px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+.canvas{
+    background-color: black;
+    margin-top: 15px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 10px;
+}
+
+/*https://www.coding-dude.com/wp/css/css-star/#:~:text=Making%20a%20CSS%20star%20shape%20is%20very%20useful%20for%20a
+
+Adjusted the star code from a base of code from this link*/
+.star{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 24px solid yellow;
+
+    cursor: pointer;
+}
+
+.star::before, 
+.star::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 24px solid yellow;
+}
+
+.star::before {
+    transform: rotate(-70deg);
+    top: -8px;
+    left: -8px;
+}
+
+.star::after{
+    transform: rotate(70deg);
+    top: -8px;
+    left: -8px;
+}
+
+.error{
+    color: red;
+    margin-top: 10px;
+}
+
+.message{
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 10px;
+    display: none;
+    border-radius: 8px;
+}
+
+/*Media Query*/
+@media (max-width: 600px) {
+    .canvas{
+        width: 300px;
+        height: 300px;
+    }
+
+    #amt-stars, #draw-button{
+        width: 75%;
+        margin: 10px 0;
+    }
+
+    .star {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 16px solid yellow;
+    }
+
+    .star::before, .star::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 16px solid yellow;
+    }
+
+   
+}
