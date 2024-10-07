@@ -5,36 +5,61 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <main id="content">
-            <header id="main-header">
-                <button id="recomend-button">Recommend Games to Us!</button>
-                <button id="contact-us">Contact us with issues!</button>
-        <h1>Cards 101</h1>
-
-    </header>
-        <img id="image-home" src="images/cards_project_image.jpg" height="300" width="300">
-        <h2><strong>Games to Learn!</strong></h2>
-        <div class="display-options">
-        <ul class="game-options">
-            <li><a href="blackjack.html">Blackjack</a></li>
-            <li><a href="solitaire.html">Solitaire</a></li>
-            <li><a href="poker.html">Poker</a></li>
-            <li><a href="spades.html">Spades</a></li>
-        </ul>
-    </div>
-
-    <div class="image-game-options">
-        <nav id="images">
-            <ul>
-                <li><img id="image-bj" src="images/bj_project_image.jpg" height="80px" width="80px"></li>
-                <li><img id="image-solitaire" src="images/soli_project_image.jpg" height="80px" width="80px"></li>
-                <li><img id="image-poker" src="images/poker_project_image.jpg" height="80px" width="80px"></li>
-                <li><img id="image-spades" src="images/spades_project_image.jpg" height="80px" width="80px"></li>
+    <header id="main-header">
+        <div class="logo">
+            <img src="images/spade_logo.jpg" alt="spade logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#games">Games</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-    </div>
+        </nav>
+    </header>
 
-    </body>
-    
-    
-</main>
+    <section class="banner">
+        <img src="images/banner_cards.jpg" alt="cards banner" class="banner-image">
+        <div class="banner-text">
+            <h1>Welcome to Cards 101</h1>
+            <p>Let the game choose you</p>
+        </div>
+    </section>
+
+    <section id="games" class="game-section">
+        <h2>Featured card games</h2>
+        <div class="games-grid">
+            <div class="game-card">
+                <img src="images/bj_project_image.jpg" alt="Blackjack">
+                <h3><a href="blackjack.html">Blackjack</a></h3>
+                <p>Have the highest score but dont go above 21</p>
+            </div>
+            <div class="game-card">
+                <img src="images/soli_project_image.jpg" alt="solitaire">
+                <h3><a href="solitaire.html">Solitaire</a></h3>
+                <p>A less stressfull and more skillfull game</p>
+            </div>
+            <div class="game-card">
+                <img src="images/poker_project_image.jpg" alt="Poker">
+                <h3><a href="poker.html">Poker</a></h3>
+                <p>A multiplayer game that is fun with friends</p>
+            </div>
+            <div class="game-card">
+                <img src="images/spades_project_image.jpg" alt="Spades">
+                <h3><a href="spades.html">Spades</a></h3>
+                <p>A game of strategy</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About us</h2>
+        <p>We bring together the best card games, tutorials, and strategy tips. Whether you are new or seasoned.</p>
+    </section>
+        
+    <footer>
+        <p>Cards 101: Andrew Evans</p>
+    </footer>
+</body>
 </html>
