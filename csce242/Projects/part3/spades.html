@@ -1,29 +1,82 @@
 <!DOCTYPE html>
 <html>
      <head>
-        <title>Cards 101</title>
+        <title>Spades | Cards 101</title>
         <link rel="stylesheet" href="styles.css">
-        <button id="recomend-button">Recommend Games to Us!</button>
     </head>
     <body>
-        <div class="display-options">
-            <ul class="game-options">
+        <header id="main-header">
+            <div class="logo">
+                <img src="images/spade_logo.jpg" alt="Spade Logo">
+            </div>
+            <nav>
+            <ul class="nav-links">
                 <li><a href="blackjack.html">Blackjack</a></li>
                 <li><a href="solitaire.html">Solitaire</a></li>
                 <li><a href="poker.html">Poker</a></li>
                 <li><a href="home.html">Home</a></li>
             </ul>
-        </div>
+            </nav>
+        </header>
         
-        <h1><strong>Spades</strong></h1>
-        <img id="spades-pics" src="images/spades_project_image.jpg" width="300px" height="300px">
-        <div class="spades-content">
-        <p>
-            Spades is a pulse-pounding, cooperative card game, where players bet on and try to win individual rounds, 
-            or “tricks.” It’s best played with 4 people (but can be played with only 2), so gather a few friends and 
-            grab a standard deck of 52 cards. We’ll show you how to deal the cards, play the game, and tally scores to 
-            find the final winner, so get that deck good and shuffled!
-        </p>
-        </div>
+        <section class="spades-intro">
+            <div class="intro-text">
+                <h1>Welcome To Spades</h1>
+                <p>Classic trick-taking game with four players. Master game of spades with detailed rules, guide, and strategies.</p>
+            </div>
+            <div class="intro-image">
+                <img src="images/spades_project_image.jpg" alt="Spades Table">
+            </div>
+        </section>
+
+        <section id="rules" class="spades-rules">
+            <h2>Rules of Spades</h2>
+            <ul>
+                <li>it is a trick-taking card game with four players in teams of two. Goal is to simply win as many tricks as possible based on bid.</li>
+                <li>Spades are always trump suit, meaning they beat all other suites.</li>
+                <li>Each player must follow suit if they can. If you can't you can play a spade or another card.</li>
+                <li>Teams earn points for meeting or exceeding bids, but lose points when they fail to meet the bid</li>
+            </ul>
+        </section>
+
+        <section id="guide" class="spades-guide">
+            <h2>How To Play</h2>
+            <div class="guide-steps">
+                <div class="step">
+                    <h3>Step 1: Bidding</h3>
+                    <p>At the start of the round, players bid on number of tricks they think they could possibly win. Total bid determines goal of each round.</p>
+                </div>
+                <div class="step">
+                    <h3>Step 2: Playing Tricks</h3>
+                    <p>Player who leads the trick plays a card from hand. Others will follow suit if they can. Highest card in suit wins the trick unless a spade is played which trumps other suits.</p>
+                </div>
+                <div class="step">
+                    <h3>Step 3: Scoring</h3>
+                    <p>At the end of round, teams are awarded points based on number of tricks they won. Failing to meet the bid will result in penalties and extra tricks</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="tip" class="spades-tips">
+            <h2>Tips & Strategies</h2>
+            <div class="tips-list">
+                <div class="tip">
+                    <h3>1. Underbid when in doubt</h3>
+                    <p>If you are unsure how many you will win, play more conservatively.</p>
+                </div>
+                <div class="tip">
+                    <h3>2. Watch The Spades</h3>
+                    <p>Keep track of which spades have been played, as you can predict when opponents or partner might play a trump.</p>
+                </div>
+                <div class="tip">
+                    <h3>3. Communicate with Partners</h3>
+                    <p>Since spades is a team game, you and your partners need to work together. Pay attention to your partner's bids and play to support each other.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Cards 101: Andrew Evans</p>
+        </footer>
     </body>
 </html>

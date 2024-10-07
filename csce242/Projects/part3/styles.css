@@ -6,9 +6,9 @@
 }
 
 body{
-    font-family: cursive;
-    background-color: #f4f4f4;
-    color: #333;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
 }
 
 #main-header{
@@ -16,7 +16,7 @@ body{
     align-items: center;
     padding: 20px;
     justify-content: space-between;
-    background-color: #1E3A56;
+    background-color: darkgray;
     color: white;
 }
 
@@ -42,7 +42,7 @@ body{
 }
 
 #main-header nav ul li a:hover{
-    color: #E63946;
+    color: goldenrod;
 }
 
 
@@ -65,27 +65,28 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: black;
+    color: goldenrod;
 }
 
 .banner-text h1{
-    font-size: 3rem;
+    font-size: 48px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
 .banner-text p {
-    font-size: 1.5rem;
+    font-size: 24px;
 }
 
 .game-section{
     padding: 40px;
-    background-color: #f9f9f9;
+    background-color: lightgray;
     text-align: center;
 }
 
 .game-section h2 {
-    font-size: 2.5rem;
+    font-size: 40px;
     margin-bottom: 20px;
+    color: darkgrey;
 }
 
 .games-grid{
@@ -98,6 +99,12 @@ body{
     background-color: white;
     padding: 20px;
     border-radius: 8px;
+    text-align: center;
+}
+
+.game-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .game-card img {
@@ -107,66 +114,67 @@ body{
 
 .game-card h3{
     margin-top: 15px;
-    font-size: 1.5rem;
+    font-size: 24px;
 }
 
 .game-card h3 a {
     text-decoration: none;
-    color: white;
+    color: lightgray;
 }
 
 .game-card h3 a:hover{
-    color: #E63946;
+    color: goldenrod;
     text-decoration: underline;
 }
 
 .game-card p {
     margin-top: 10px;
-    font-size: 1rem;
-    color: #555;
+    font-size: 16px;
+    color: goldenrod;
 }
 
 .game-card a {
     display: inline-block;
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: #1E3A56;
-    color: white;
+    color: darkred;
     text-decoration: none;
     border-radius: 5px;
 }
 
 .game-card a:hover{
-    background-color: #333;
+    background-color: white;
+    text-decoration: underline;
 }
 
 .about-section{
     padding: 40px;
-    background-color: #ffffff;
+    background-color: white;
     text-align: center;
 }
 
 .about-section h2{
-    font-size: 2.5 rem;
+    font-size: 40px;
     margin-bottom: 20px;
+    color: goldenrod;
 }
 
 .about-section p {
-    font-size: 1.2rem;
-    color: #555;
+    font-size: 19.2px;
+    color: gray;
     line-height: 1.6;
 }
 
 footer {
-    background-color: #1E3A56;
-    color: white;
+    background-color: darkgrey;
+    color: goldenrod;
     padding: 20px;
     text-align: center;
 }
 
 footer p{
     margin: 0;
-    font-size: 1rem;
+    font-size: 16px;
 }
 
 .blackjack-intro{
@@ -174,7 +182,7 @@ footer p{
     justify-content: space-around;
     align-items: center;
     padding: 40px;
-    background-color: white;
+    background-color: black;
 }
 
 .blackjack-intro .intro-text{
@@ -182,13 +190,13 @@ footer p{
 }
 
 .blackjack-intro h1{
-    font-size: 3rem;
-    color: #1E3A56;
+    font-size: 48px;
+    color: gold;
 }
 
 .blackjack-intro p {
-    font-size: 3rem;
-    color: #555;
+    font-size: 48px;
+    color: white;
     margin-top: 10px;
 }
 
@@ -199,14 +207,14 @@ footer p{
 
 .blackjack-rules{
     padding: 40px;
-    background-color: white;
+    background-color: darkgreen;
 }
 
 .blackjack-rules h2{
-    font-size: 2.5rem;
+    font-size: 40px;
     margin-bottom: 20px;
     text-align: center;
-    color: #1E3A56;
+    color: darkred;
 }
 
 .blackjack-rules ul {
@@ -216,19 +224,19 @@ footer p{
 
 .blackjack-rules ul li{
     margin-bottom: 15px;
-    font-size: 1.1rem;
-    color: #333;
+    font-size: 17px;
+    color: goldenrod;
 }
 
 .blackjack-guide{
     padding: 40px;
-    background-color: white;
+    background-color: black;
 }
 
 .blackjack-guide h2{
-    font-size: 2.5rem;
+    font-size: 40px;
     text-align: center;
-    color: #1E3A56;
+    color: darkred;
     margin-bottom: 30px;
 }
 
@@ -239,26 +247,26 @@ footer p{
 }
 
 .step{
-    background-color: white;
+    background-color: darkgrey;
     padding: 20px;
     border-radius: 8px;
 }
 
 .step h3{
-    font-size: 1.5rem;
-    color: #E63946;
+    font-size: 24px;
+    color: gold;
 }
 
 .step p{
-    font-size: 1.1rem;
+    font-size: 17px;
     color: #555;
     margin-top: 10px;
 }
 
 .blackjack-tips h2{
-    font-size: 2.5rem;
+    font-size: 40px;
     text-align: center;
-    color: #1E3A56;
+    color: darkred;
     margin-bottom: 30px;
 }
 
@@ -269,18 +277,252 @@ footer p{
 }
 
 .tip{
-    background-color: white;
+    background-color: black;
     padding: 20px;
     border-radius: 8px;
 }
 
 .tip h3{
-    font-size: 1.5rem;
+    font-size: 24px;
     color: #E63946;
 }
 
 .tip p{
-    font-size: 1.1rem;
+    font-size: 17px;
     color: #555;
     margin-top: 10px;
 }
+
+.solitaire-intro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    background-color: black;
+}
+
+.solitaire-intro .intro-text{
+    max-width: 50%;
+}
+
+.solitaire-intro h1{
+    font-size: 48px;
+    color: goldenrod;
+}
+
+.solitaire-intro p {
+    font-size: 19px;
+    color: white;
+    margin-top: 10px;
+}
+
+.solitaire-intro .intro-image img {
+    width: 500px;
+    border-radius: 8px;
+}
+
+.solitaire-rules{
+    padding: 40px;
+    background-color: darkgreen;
+}
+
+.solitaire-rules h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: goldenrod;
+}
+
+.solitaire-rules ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+.solitaire-rules ul li {
+    margin-bottom: 15px;
+    font-size: 17px;
+    color: darkred;
+}
+
+.solitaire-guide{
+    padding: 40px;
+    background-color: black;
+}
+
+.solitaire-guide h2{
+    font-size: 40px;
+    text-align: center;
+    color: darkred;
+    margin-bottom: 30px;
+}
+
+.guide-steps{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.solitaire-tips{
+    padding: 40px;
+    background-color: darkgreen;
+}
+
+.solitaire-tips h2{
+    font-size: 40px;
+    text-align: center;
+    color: darkred;
+    margin-bottom: 30px;
+}
+
+.poker-intro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    background-color: black;
+}
+
+.poker-intro .intro-text{
+    max-width: 50%;
+}
+
+.poker-intro h1 {
+    font-size: 48px;
+    color: goldenrod;
+}
+
+.poker-intro p {
+    font-size: 19.2;
+    color: white;
+    margin-top: 10px;
+}
+
+.poker-intro .intro-image img {
+    width: 500px;
+    border-radius: 8px;
+}
+
+.poker-rules{
+    padding: 40px;
+    background-color: green;
+}
+
+.poker-rules h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    color:goldenrod;
+}
+
+.poker-rules ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+.poker-rules ul li {
+    margin-bottom: 15px;
+    font-size: 17px;
+    color: darkred;
+}
+
+.poker-guide{
+    padding: 40px;
+    background-color: black;
+}
+
+.poker-guide h2{
+    font-size: 40px;
+    text-align: center;
+    color: darkred;
+    margin-bottom: 30px;
+}
+
+.poker-tips {
+    padding: 40px;
+    background-color: darkgreen;
+}
+
+.poker-tips h2{
+    font-size: 40px;
+    text-align: center;
+    color: darkred;
+    margin-bottom: 30px;
+}
+
+.spades-intro {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    background-color: black;
+}
+
+.spades-intro .intro-text {
+    max-width: 50%;
+}
+
+.spades-intro h1 {
+    font-size: 48px;
+    color: goldenrod;
+}
+
+.spades-intro p {
+    font-size: 17px;
+    color: white;
+    margin-top: 10px;
+}
+
+.spades-intro .intro-image img {
+    width: 500px;
+    border-radius: 8px;
+}
+
+.spades-rules {
+    padding: 40px;
+    background-color: darkgreen;
+}
+
+.spades-rules h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: gold;
+}
+
+.spades-rules ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    color: white;
+}
+
+.spades-rules ul li {
+    margin-bottom: 15px;
+    font-size: 17px;
+    color: white;
+}
+
+.spades-guide{
+    padding: 40px;
+    background-color: black;
+}
+
+.spades-guide h2 {
+    font-size: 40px;
+    text-align: center;
+    color: darkred;
+    margin-bottom: 30px;
+}
+
+.spades-tips {
+    padding: 40px;
+    background-color:darkgreen;
+}
+
+.spades-tips h2 {
+    font-size: 40px;
+    text-align: center;
+    color: gold;
+    margin-bottom: 30px;
+}
+
+
