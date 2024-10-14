@@ -54,7 +54,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 gamesGrid.appendChild(gameCard);
             });
         }
-        
+        const aboutTitle = document.getElementById('about-title');
+        if(aboutTitle) {
+            aboutTitle.textContent = homePageData.about.aboutTitle;
+
+        }
+
         const aboutDescription = document.getElementById('about-description');
         if (aboutDescription) {
             aboutDescription.textContent = homePageData.about.description;
