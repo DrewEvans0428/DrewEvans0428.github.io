@@ -525,4 +525,150 @@ footer p{
     margin-bottom: 30px;
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    #main-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+
+    #main-header .logo img {
+        height: 50px;
+    }
+
+    #main-header nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    #main-header nav ul li {
+        margin-right: 0;
+    }
+
+    #main-header nav ul li a {
+        font-size: 16px;
+    }
+
+    .banner {
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-text h1 {
+        font-size: 28px;
+    }
+
+    .banner-text p {
+        font-size: 18px;
+    }
+
+    .game-section {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .game-section h2 {
+        font-size: 28px;
+    }
+
+    .games-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .game-card{
+        display: flex;
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .game-card img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .game-card h3 {
+        font-size: 20px;
+    }
+
+    .about-section{
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-section h2 {
+        font-size: 28px;
+    }
+
+    .about-section p {
+        font-size: 16px;
+    }
+
+    .blackjack-intro, 
+    .solitaire-intro, 
+    .poker-intro, 
+    .spades-intro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .intro-image img {
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .blackjack-intro h1, 
+    .solitaire-intro h1, 
+    .poker-intro h1, 
+    .spades-intro h1 {
+        font-size: 30px;
+    }
+
+    .blackjack-intro p, 
+    .solitaire-intro p, 
+    .poker-intro p, 
+    .spades-intro p {
+        font-size: 16px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+}
