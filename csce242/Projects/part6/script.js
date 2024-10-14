@@ -15,6 +15,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const bannerTitle = document.getElementById('banner-title');
             const bannerSubtitle = document.getElementById('banner-subtitle');
+            if (bannerTitle && homePageData.banner.title) {
+                bannerTitle.textContent = homePageData.banner.title;
+            }
+            if(bannerSubtitle && homePageData.banner.subtitle){
+                bannerSubtitle.textContent = homePageData.banner.subtitle;
+            }
            
             const gamesGrid = document.querySelector('.games-grid');
             if(gamesGrid) {
@@ -48,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 gamesGrid.appendChild(gameCard);
             });
         }
-
+        
         const aboutDescription = document.getElementById('about-description');
         if (aboutDescription) {
             aboutDescription.textContent = homePageData.about.description;
