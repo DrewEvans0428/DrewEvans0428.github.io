@@ -1,0 +1,76 @@
+{
+    "homePage": {
+        "banner": {
+            "_id":1,
+            "title": "Cards 101",
+            "subtitle": "Let the game choose you",
+            "img_name": "images/banner_cards.jpg"
+        },
+        "games": [
+            {
+                "_id":2,
+                "title":"Blackjack",
+                "description":"Have the highest score but don't go above 21",
+                "img_name": "images/_bj_project_image.jpg",
+                "link": "blackjack.html",
+                "features": [
+                    "strategy",
+                    "luck",
+                    "multiplayer"
+                ]
+            },
+            {
+                "_id":3,
+                "title": "Solitaire",
+                "description":"A less stressfull and more skilled game",
+                "img_name": "images/soli_project_image.jpg",
+                "link":"solitaire.html",
+                "features":[
+                    "Patience",
+                    "Solo",
+                    "Skill"
+                ]
+            },
+            {
+                "_id4":4,
+                "title":"Poker",
+                "description":"A multiplayer game that is fun with friends",
+                "img_name":"images/poker_project_image.jpg",
+                "link":"poker.html",
+                "features":[
+                    "Bluffing",
+                    "multiplayer",
+                    "High Stakes"
+                ]
+            },
+            {
+                "_id":5,
+                "title":"Spades",
+                "description": "A game of strategy",
+                "img_name": "images/spade_project_image.jpg",
+                "link":"spades.html",
+                "features":[
+                    "Team Play",
+                    "Strategy",
+                    "Trick-taking"
+                ]
+            }
+        ],
+        "about":{
+            "_id":6,
+            "title":"About Us",
+            "description": "We bring together the best card games, tutorials, and strategy tips. Whether you are new or seasoned."
+        },
+        "contact":{
+            "_id":7,
+            "title":"Contact",
+            "email": "support@cards101.com",
+            "phone": "+1-123-456-7890"
+        },
+        "footer": {
+            "_id":8,
+            "text": "Cards 101: Andrew Evans",
+            "year": "2024"
+        }
+    }
+}
