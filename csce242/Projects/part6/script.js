@@ -12,6 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
             if (bannerImg) {
                 bannerImg.src = homePageData.banner.img_name;
             }
+
+            const bannerTitle = document.getElementById('banner-title');
+            const bannerSubtitle = document.getElementById('banner-subtitle');
            
             const gamesGrid = document.querySelector('.games-grid');
             if(gamesGrid) {
@@ -28,6 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 let gameLink = document.createElement('a');
                 gameLink.href = game.link;
                 gameLink.textContent = game.title;
+
                 gameTitle.appendChild(gameLink);
 
                 let gameDesc = document.createElement('p');
