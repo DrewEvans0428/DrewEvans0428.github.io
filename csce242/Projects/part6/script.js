@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             const bannerTitle = document.getElementById('banner-title');
+            const aboutTitle = document.getElementById('about-title');
             const bannerSubtitle = document.getElementById('banner-subtitle');
             if (bannerTitle && homePageData.banner.title) {
                 bannerTitle.textContent = homePageData.banner.title;
@@ -54,12 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 gamesGrid.appendChild(gameCard);
             });
         }
-        const aboutTitle = document.getElementById('about-title');
-        if(aboutTitle) {
-            aboutTitle.textContent = homePageData.about.aboutTitle;
-
-        }
-
+        
         const aboutDescription = document.getElementById('about-description');
         if (aboutDescription) {
             aboutDescription.textContent = homePageData.about.description;
