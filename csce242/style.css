@@ -31,7 +31,7 @@ body{
     border-radius: 7px 0;
 }
 
-.section-1, .section-2, .section-3 , .section-4, .section-5, .section-6, .section-7,.section-8, .section-9, .project-1, .project-2, .project-3, .project-4, .project-5{
+.section-1, .section-2, .section-3 , .section-4, .section-5, .section-6, .section-7,.section-8, .section-9,.section-10, .project-1, .project-2, .project-3, .project-4, .project-5{
     background: darkgreen;
     padding: 5px;
     border-radius: 5px;
@@ -45,7 +45,8 @@ body{
 .image-6-of-6
 ,.image-7-of-7
 ,.image-8-of-8,
-.image-9-of-9
+.image-9-of-9,
+.image-10-of-10
 ,.project-part-1-image,
 .project-part-2-image,
 .project-part-3-image,
