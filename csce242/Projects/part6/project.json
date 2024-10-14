@@ -11,7 +11,7 @@
                 "_id":2,
                 "title":"Blackjack",
                 "description":"Have the highest score but don't go above 21",
-                "img_name": "images/_bj_project_image.jpg",
+                "img_name": "images/bj_project_image.jpg",
                 "link": "blackjack.html",
                 "features": [
                     "strategy",
@@ -32,7 +32,7 @@
                 ]
             },
             {
-                "_id4":4,
+                "_id":4,
                 "title":"Poker",
                 "description":"A multiplayer game that is fun with friends",
                 "img_name":"images/poker_project_image.jpg",
@@ -47,7 +47,7 @@
                 "_id":5,
                 "title":"Spades",
                 "description": "A game of strategy",
-                "img_name": "images/spade_project_image.jpg",
+                "img_name": "images/spades_project_image.jpg",
                 "link":"spades.html",
                 "features":[
                     "Team Play",
