@@ -1,18 +1,25 @@
 document.addEventListener('DOMContentLoaded', () => {
     const loadContent = async () => {
-        try{
+        try {
             const response = await fetch('project.json');
             if (!response.ok) throw new Error('Failed to load');
 
             const data = await response.json();
             const homePageData = data.homePage;
 
+            const bannerImg = document.getElementById('banner-img');
+            if (bannerImg) {
+                bannerImg.src = homePageData.banner.img_name;
+            }
+
             document.getElementById('banner-title').textContent = homePageData.banner.title;
             document.getElementById('banner-subtitle').textContent = homePageData.banner.subtitle;
-            document.getElementById('banner-img').src = homePageData.banner.img_name;
+           
 
             const gamesGrid = document.querySelector('.games-grid');
-            homePageData.games.forEach(game => {
+            if(gamesGrid) {
+                gamesGrid.innerHTML = '';
+                homePageData.games.forEach(game => {
                 const gameCard = document.createElement('div');
                 gameCard.classList.add('game-card');
 
@@ -39,11 +46,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 gameCard.append(gameImg, gameTitle, gameDesc, gameFeatures);
                 gamesGrid.appendChild(gameCard);
             });
+        }
 
-            document.getElementById('about-description').textContent = homePageData.about.description;
-
-            const footerText = `${homePageData.footer.text} ${homePageData.footer.year}`;
-            document.getElementById('footer-text').textContent = footerText;
+        const aboutDescription = document.getElementById('about-description');
+        if (aboutDescription) {
+            aboutDescription.textContent = homePageData.about.description;
+        }
+            const footerTextElement = document.getElementById('footer-text');
+            if (footerTextElement){
+                footerTextElement.textContent = `${homePageData.footer.text} ${homePageData.footer.year}`;
+            }
         }
         catch (error){
             console.error('error loading content:', error);
