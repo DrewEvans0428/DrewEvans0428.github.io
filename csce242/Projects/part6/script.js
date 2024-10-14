@@ -15,30 +15,30 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('banner-title').textContent = homePageData.banner.title;
             document.getElementById('banner-subtitle').textContent = homePageData.banner.subtitle;
            
-
+  
             const gamesGrid = document.querySelector('.games-grid');
             if(gamesGrid) {
                 gamesGrid.innerHTML = '';
                 homePageData.games.forEach(game => {
-                const gameCard = document.createElement('div');
+                let gameCard = document.createElement('div');
                 gameCard.classList.add('game-card');
 
-                const gameImg = document.createElement('img');
-                gameImg = game.img_name;
+                let gameImg = document.createElement('img');
+                gameImg.src = game.img_name;
                 gameImg.alt = game.title;
 
-                const gameTitle = document.createElement('h3');
-                const gameLink = document.createElement('a');
+                let gameTitle = document.createElement('h3');
+                let gameLink = document.createElement('a');
                 gameLink.href = game.link;
                 gameLink.textContent = game.title;
                 gameTitle.appendChild(gameLink);
 
-                const gameDesc = document.createElement('p');
+                let gameDesc = document.createElement('p');
                 gameDesc.textContent = game.description;
 
-                const gameFeatures = document.createElement('ul');
+                let gameFeatures = document.createElement('ul');
                 game.features.forEach(feature => {
-                    const featureItem = document.createElement('li');
+                    let featureItem = document.createElement('li');
                     featureItem.textContent = feature;
                     gameFeatures.append(featureItem);
                 });
