@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const loadContent = async () => {
         try {
+            
             const response = await fetch('project.json');
             if (!response.ok) throw new Error('Failed to load');
 
@@ -11,15 +12,21 @@ document.addEventListener('DOMContentLoaded', () => {
             if (bannerImg) {
                 bannerImg.src = homePageData.banner.img_name;
             }
-
-            document.getElementById('banner-title').textContent = homePageData.banner.title;
-            document.getElementById('banner-subtitle').textContent = homePageData.banner.subtitle;
            
-  
-            const gamesGrid = document.querySelector('.games-grid');
-            if(gamesGrid) {
-                gamesGrid.innerHTML = '';
-                homePageData.games.forEach(game => {
+           const bannerTitle = document.createElement('h1');
+           bannerTitle.textContent = homePageData.banner.title;
+           const bannerSubtitle = document.createElement('p');
+           bannerSubtitle.textContent = homePageData.banner.banner.subtitle;
+
+           const bannerText = document.querySelector('.banner-text');
+           bannerText.innerHTML = '';
+           bannerText.append(bannerTitle);
+           bannerText.append(bannerSubtitle);
+
+           const gamesGrid = document.querySelector('.games-grid');
+           if (gamesGrid) {
+            gamesGrid.innerHTML = '';
+            homePageData.games.forEach(game => {
                 let gameCard = document.createElement('div');
                 gameCard.classList.add('game-card');
 
@@ -38,29 +45,35 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 let gameFeatures = document.createElement('ul');
                 game.features.forEach(feature => {
-                    let featureItem = document.createElement('li');
-                    featureItem.textContent = feature;
-                    gameFeatures.append(featureItem);
-                });
-
-                gameCard.append(gameImg, gameTitle, gameDesc, gameFeatures);
-                gamesGrid.appendChild(gameCard);
+                        let featureItem = document.createElement('li');  
+                        featureItem.textContent = feature;
+                        gameFeatures.append(featureItem);
             });
+
+            gameCard.append(gameImg);
+            gameCard.append(gameTitle);
+            gameCard.append(gameDesc);
+            gameCard.append(gameFeatures);
+
+            gamesGrid.append(gameCard);
+           });
         }
 
         const aboutDescription = document.getElementById('about-description');
         if (aboutDescription) {
             aboutDescription.textContent = homePageData.about.description;
         }
-            const footerTextElement = document.getElementById('footer-text');
-            if (footerTextElement){
-                footerTextElement.textContent = `${homePageData.footer.text} ${homePageData.footer.year}`;
-            }
-        }
-        catch (error){
-            console.error('error loading content:', error);
-        }
-    };
 
-    loadContent();
+        const footerTextElement = document.getElementById('footer-text');
+        if (footerTextElement) {
+            footerTextElement.textContent = `${homePageData.footer.text} ${homePageData.footer.year}`;
+        }
+
+    }
+    catch (error) {
+        console.error('Error loading');
+    }
+};
+
+loadContent();
 });
