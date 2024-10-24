@@ -36,6 +36,7 @@ body{
     padding: 5px;
     border-radius: 5px;
     margin: 5px;
+    width: 100%;
 }
 .image-1-of-3,
 .image-2-of-3,
@@ -47,7 +48,7 @@ body{
 ,.image-8-of-8,
 .image-9-of-9,
 .image-10-of-10,
-.image-11-of-11
+.image-11-of-11 
 ,.project-part-1-image,
 .project-part-2-image,
 .project-part-3-image,
