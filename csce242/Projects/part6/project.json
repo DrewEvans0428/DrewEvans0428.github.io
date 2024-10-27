@@ -54,21 +54,70 @@
                     "Strategy",
                     "Trick-taking"
                 ]
-            }
+            },
+            {
+                "_id":6,
+                "title":"Rummy",
+                "description": "A game pairs and strategy",
+                "img_name": "images/rummy.jpg",
+                "link":"rummy.html",
+                "features":[
+                    "Sequences",
+                    "Matching",
+                    "Strategy"
+                ]
+                
+            },
+            {
+                "_id":7,
+                "title":"Bridge",
+                "description": "A game of teamwork",
+                "img_name": "images/bridge.jpg",
+                "link":"bridge.html",
+                "features":[
+                    "Team Play",
+                    "Strategy",
+                    "Trick-taking"
+                ]
+            },
+            {
+                "_id":8,
+            "title":"Gin-Rummy",
+            "description": "A spinoff of Rummy",
+            "img_name": "images/gin_rummy.jpg",
+            "link":"gin-rummy.html",
+            "features":[
+                "Quick thinking",
+                "Strategy",
+                "Rummy"
+            ]
+        },
+        {  
+            "_id":9,
+        "title":"Euchre",
+        "description": "A trick-taking game",
+        "img_name": "images/euchre.jpg",
+        "link":"euchre.html",
+        "features":[
+            "Team Play",
+            "Strategy",
+            "Trump"
+        ]
+    }
         ],
         "about":{
-            "_id":6,
+            "_id":10,
             "title":"About Us",
             "description": "We bring together the best card games, tutorials, and strategy tips. Whether you are new or seasoned."
         },
         "contact":{
-            "_id":7,
+            "_id":11,
             "title":"Contact",
             "email": "support@cards101.com",
             "phone": "+1-123-456-7890"
         },
         "footer": {
-            "_id":8,
+            "_id":12,
             "text": "Cards 101: Andrew Evans",
             "year": "2024"
         }

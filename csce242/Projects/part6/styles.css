@@ -525,6 +525,109 @@ footer p{
     margin-bottom: 30px;
 }
 
+.contact-section {
+    padding: 40px;
+    background-color: lightgray;
+    text-align: center;
+    color: darkgray;
+}
+
+.contact-section h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: goldenrod;
+}
+
+.contact-section p {
+    font-size: 19px;
+    margin-bottom: 30px;
+    color: gray;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: darkred;
+}
+
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.submit-btn {
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submit-btn:hover {
+    background-color: darkred;
+    color: white;
+}
+
+.bridge-intro, .rummy-intro, .gin-rummy-intro, .euchre-intro {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    background-color: black;
+}
+
+.bridge-intro .intro-text,
+.rummy-intro .intor-text,
+.gin-rummy-intro .intro-text,
+.euchre-intro .intro-text {
+    max-width: 50%;
+    color: white;
+}
+
+.bridge-intro h1,
+.rummy-intro h1,
+.gin-rummy-intro h1,
+.euchre-intro h1 {
+    font-size: 48px;
+    color: goldenrod;
+}
+
+.bridge-into p,
+.rummy-intro p,
+.gin-rummy-intro p,
+.euchre-intro p {
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+.bridge-intro .intro-image img,
+.rummy-intro .intro-image img,
+.gin-rummy-into .intro-image img,
+.euchre-intro .intro-image img {
+    width: 500x;
+    border-radius: 8px;
+}
+
 @media only screen and (max-width: 600px) {
     body {
         font-size: 14px;
@@ -671,4 +774,33 @@ footer p{
     footer p {
         font-size: 14px;
     }
+    
+    .bridge-intro, .rummy-intro, .gin-rummy-intro, .euchre-intro{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .bridge-intro .intro-image img,
+.rummy-intro .intro-image img,
+.gin-rummy-into .intro-image img,
+.euchre-intro .intro-image img
+{
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.bridge-intro h1,
+.rummy-intro h1,
+.gin-rummy-intro h1,
+.euchre-intro h1{
+    font-size: 30px;
+}
+
+.bridge-into p,
+.rummy-intro p,
+.gin-rummy-intro p,
+.euchre-intro p{
+    font-size: 16px;
+}
 }

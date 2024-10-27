@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us - Cards 101</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="main-header">
+        <div class="logo">
+            <img src="images/spade_logo.jpg" alt="spade_logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="blackjack.html">Blackjack</a></li>
+                    <li><a href="solitaire.html">Solitaire</a></li>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="spades.html">Spades</a></li>
+                    <li><a href="poker.html">Poker</a></li>
+                    <li><a href="rummy.html">Rummy</a></li>
+                    <li><a href="bridge.html">Bridge</a></li>
+                    <li><a href="gin-rummy.html">Gin Rummy</a></li>
+                    <li><a href="euchre.html">Euchre</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Please leave questions, comments, feedback, or ideas you feel like would work.</p>
+        <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
+            <input type="hidden" name="access_key" value="0506e354-7e3a-4b83-8ba7-a1c32879aad6">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Cards 101</p>
+    </footer>
+</body>
+</html>
