@@ -195,7 +195,7 @@ footer p{
 }
 
 .blackjack-intro p {
-    font-size: 48px;
+    font-size: 17px;
     color: white;
     margin-top: 10px;
 }
@@ -477,25 +477,41 @@ footer p{
     border-radius: 8px;
 }
 
-.spades-rules {
+.spades-rules,
+.euchre-tips,
+.gin-rummy-tips,
+.rummy-tips,
+.bridge-tips {
     padding: 40px;
     background-color: darkgreen;
 }
 
-.spades-rules h2{
+.spades-rules h2,
+.euchre-tips h2,
+.gin-rummy-tips h2,
+.rummy-tips h2,
+.bridge-tips h2{
     font-size: 40px;
     margin-bottom: 20px;
     text-align: center;
     color: gold;
 }
 
-.spades-rules ul {
+.spades-rules ul,
+.euchre-tips ul,
+.gin-rummy-tips ul,
+.rummy-tips ul,
+.bridge-tips ul {
     list-style-type: disc;
     padding-left: 40px;
     color: white;
 }
 
-.spades-rules ul li {
+.spades-rules ul li,
+.euchre-tips ul li,
+.gin-rummy-tips ul li,
+.rummy-tips ul li,
+.bridge-tips ul li {
     margin-bottom: 15px;
     font-size: 17px;
     color: white;
@@ -513,12 +529,20 @@ footer p{
     margin-bottom: 30px;
 }
 
-.spades-tips {
+.spades-tips,
+.euchre-tips,
+.gin-rummy-tips,
+.rummy-tips,
+.bridge-tips {
     padding: 40px;
     background-color:darkgreen;
 }
 
-.spades-tips h2 {
+.spades-tips h2,
+.euchre-tips h2,
+.gin-rummy-tips h2,
+.rummy-tips h2,
+.bridge-tips h2{
     font-size: 40px;
     text-align: center;
     color: gold;
