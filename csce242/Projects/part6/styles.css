@@ -205,35 +205,59 @@ footer p{
     border-radius: 8px;
 }
 
-.blackjack-rules{
+.blackjack-rules,
+.bridge-rules,
+.rummy-rules,
+.euchre-rules,
+.gin-rummy-rules{
     padding: 40px;
     background-color: darkgreen;
 }
 
-.blackjack-rules h2{
+.blackjack-rules h2,
+.bridge-rules h2,
+.rummy-rules h2,
+.euchre-rules h2,
+.gin-rummy-rules h2{
     font-size: 40px;
     margin-bottom: 20px;
     text-align: center;
     color: darkred;
 }
 
-.blackjack-rules ul {
+.blackjack-rules ul,
+.bridge-rules ul,
+.rummy-rules ul,
+.euchre-rules ul,
+.gin-rummy-rules ul{
     list-style-type: disc;
     padding-left: 40px;
 }
 
-.blackjack-rules ul li{
+.blackjack-rules ul li,
+.bridge-rules ul li,
+.rummy-rules ul li,
+.euchre-rules ul li,
+.gin-rummy-rules ul li{
     margin-bottom: 15px;
     font-size: 17px;
     color: goldenrod;
 }
 
-.blackjack-guide{
+.blackjack-guide,
+.bridge-guide,
+.rummy-guide,
+.euchre-guide,
+.gin-rummy-guide{
     padding: 40px;
     background-color: black;
 }
 
-.blackjack-guide h2{
+.blackjack-guide h2,
+.bridge-guide h2,
+.rummy-guide h2,
+.euchre-guide h2,
+.gin-rummy-guide h2{
     font-size: 40px;
     text-align: center;
     color: darkred;
