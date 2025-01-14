@@ -31,7 +31,7 @@ body{
     border-radius: 7px 0;
 }
 
-.section-1, .section-2, .section-3 , .section-4, .section-5, .section-6, .section-7,.section-8, .section-9,.section-10, .section-11, .project-1, .project-2, .project-3, .project-4, .project-5, .project-6, .project-7{
+.section-1, .section-2, .section-3 , .section-4, .section-5, .section-6, .section-7,.section-8, .section-9,.section-10, .section-11, .project-1, .project-2, .project-3, .project-4, .project-5, .project-6, .project-7, .project-8{
     background: darkgreen;
     padding: 5px;
     border-radius: 5px;
@@ -55,7 +55,8 @@ body{
 .project-part-4-image,
 .project-part-5-image,
 .project-part-6-image,
-.project-part-7-image{
+.project-part-7-image,
+.project-part-8-image{
     background-color: forestgreen;
     padding: 5px;
     border-radius: 5px;
