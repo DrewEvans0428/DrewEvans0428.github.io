@@ -1,0 +1,60 @@
+body{
+    font-family: cursive;
+    background: url(images/hamlets.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#main{
+    background: lightblue;
+    opacity: 80%;
+    width: 75%;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#main-header, #main-footer{
+    background: dodgerblue;
+    padding: 6px;
+}
+
+#main-header {
+    border-radius: 5px 5px 0 0;
+}
+
+#main-footer{
+    border-radius: 0 0 5px 5px;
+}
+
+#page-content{
+   
+    padding: 6px;
+    border-radius: 8px 0;
+}
+
+.section-1, .section-2{
+    background: lightblue;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    width: 100%;
+}
+
+.image-1-of-3, .image-2-of-3{
+    background-color: dodgerblue;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    align-items: center;
+}
+
+#main-nav a
+{
+    text-decoration: none;
+    background: white;
+    color: black;
+
+}
