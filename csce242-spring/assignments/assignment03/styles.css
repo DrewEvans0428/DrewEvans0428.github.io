@@ -1,0 +1,60 @@
+body{
+    background: tan;
+}
+
+h1{
+    color: teal;
+    text-align: center;
+}
+
+#main-nav{
+    text-decoration: none;
+    background-color: coral;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+    text-decoration: none;
+    width: 100%;
+}
+ 
+#main-nav ul, li, a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    color: white;
+    
+}
+
+h2{
+    color: teal;
+    padding: 15px;
+}
+
+#flexbox-1, img{
+    background: teal;
+   
+    color: white;
+    margin: 10px;
+    display: flex;
+}
+
+#flexbox-1 h3{
+    padding: 15px;
+}
+
+#flexbox-1 p{
+    position: static;
+}
+
+#flexbox-2{
+    background: coral;
+    color: white;
+    margin: 10px;
+    display: flex;
+}
+
+#flexbox-2 h3{
+    padding: 15px;
+}
