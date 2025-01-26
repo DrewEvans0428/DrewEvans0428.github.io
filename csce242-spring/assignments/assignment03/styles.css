@@ -21,7 +21,7 @@ h1{
 
 #main-nav a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 h2{
@@ -51,6 +51,33 @@ h2{
 
 #flexbox-2 h3{
     padding: 15px;
+}
+
+.title-container {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.col1of3, .column2of3, .column3of3 {
+    flex: 1;
+}
+
+.col1of3, .column3of3 {
+    background-color: teal;
+}
+
+.column2of3{
+    background-color: coral;
+}
+
+#secondary-nav{
+    list-style-type: none;
+}
+
+#secondary-nav a{
+    text-decoration: none;
+    color: white;
 }
 
 #main-footer{
@@ -86,10 +113,27 @@ h2{
         display: flex;
     }
 
+    .title-container {
+        display: grid;
+        flex-direction: column;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        padding: 10px;
+    }
+
     .grid-1{
         background-color: aquamarine;
         display: grid;
        
+    }
+
+    .column2of3{
+        height: 100%;
+        background-color: coral;
+    }
+
+    .col1of3, .column3of3 {
+        display: grid;
     }
     
 }
