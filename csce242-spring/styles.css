@@ -34,14 +34,14 @@ body{
     border-radius: 8px 0;
 }
 
-.section-1, .section-2, .section-3, .project-part-1{
+.section-1, .section-2, .section-3, .section-4, .project-part-1, .project-part-2{
     background: dodgerblue;
     border-radius: 5px;
     margin: 5px;
     width: 100%;
 }
 
-.image-1-of-3, .image-2-of-3, .image-3-of-3, .project-part-1-image{
+.image-1-of-3, .image-2-of-3, .image-3-of-3, .image-4-of-4, .project-part-1-image, .project-part-2-image{
     background-color: dodgerblue;
     padding: 5px;
     border-radius: 5px;
