@@ -66,7 +66,7 @@ body{
 }
 
 @media (min-width: 900px) {
-    .section-1, .section-2, .section-3, .project-part-1{
+    .section-1, .section-2, .section-3, .section-4 .project-part-1, .project-part-2{
         display: grid;
     }
 }
