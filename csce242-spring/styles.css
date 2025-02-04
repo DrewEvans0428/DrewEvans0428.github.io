@@ -39,13 +39,13 @@ body{
     border-radius: 5px;
     margin: 5px;
     width: 100%;
+    padding: 10px;
 }
 
 .image-1-of-3, .image-2-of-3, .image-3-of-3, .image-4-of-4, .project-part-1-image, .project-part-2-image{
     background-color: dodgerblue;
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
-    margin: 5px;
     align-items: center;
 }
 
@@ -58,6 +58,7 @@ body{
     border-radius: 2px;
     display: inline-block;
     text-align: center;
+    padding: 10px;
 }
 
 #main-nav a:hover{
