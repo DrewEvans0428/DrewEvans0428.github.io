@@ -3,15 +3,19 @@
 }
 
 #main-nav {
+    width: 100%;
     padding: 10px 0;
     text-align: center;
-
+    
 }
 
 #main-nav ul{
     list-style-type: none;
     padding: 0;
-    margin: auto;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
 }
 
 #main-nav li{
@@ -75,6 +79,37 @@
 
 #about-content p{
     font-size: 20px;
+}
+
+#contact-content{
+    width: 70%;
+    margin: auto;
+    padding: 25px;
+}
+
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.contact-inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#consultation-content{
+    width: 70%;
+    margin: auto;
+    padding: 25px;
+}
+
+#consultaion-container{
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
 }
 
 
