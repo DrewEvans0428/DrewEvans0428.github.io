@@ -1,25 +1,34 @@
 <!DOCTYPE html>
 <html lang="eng">
     <head>
-        Drews Assignment 5
-        <link rel="styles" href="styles.css">
+        <title>Drews Assignment 5</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <div id="content">
             <h1>Assignment 5</h1>
-            <h3>Intro to JavaScript</h3>
-            <div class="columns">
-                <section id="hello">
-                    <h2>Say Hello</h2>
+            <h2>Intro to JavaScript</h2>
+            <div id="challenges">
+                <div class="columns" id="hello-column">
+                    <h3>Say Hello</h3>
+                    <section id="hello"></section>
+                </div>
+            <div class="columns" id="color-column">
+                <section id="color-chooser">
+                    <h3>Pick a Color</h3>
+                    <!--Got the color box from w3schools how TO - color picker-->
+                    <input type="color" id="color-chooser" value="#ff000">
+                    <!--Got the star symbol from symbolsdb.com/star-symbol-->
+                    <div id="star">★</div>
                 </section>
-                <section id="pick color">
-
-                </section>
-                <section id="image_change">
-                    <h2>Image Change</h2>
+            </div>
+                <div class="columns" id="imageColumn">
+                <section id="imageChange">
+                    <h3>Image Change</h3>
                     <img id="random-image" src="https://picsum.photos/200">
-
                 </section>
+                </div>
+                
             </div>
         </div>
         <script src="script.js"></script>
