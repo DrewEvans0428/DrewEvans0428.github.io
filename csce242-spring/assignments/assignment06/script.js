@@ -21,7 +21,7 @@ document.getElementById("travel-text").oninput = () =>{
   const car = document.getElementById("car-image");
   const bike = document.getElementById("bike-image");
   const skate = document.getElementById("skate-image");
-
+//Set default property to display none so multiple images do not appear
   scooter.style.display = "none";
   car.style.display = "none";
   bike.style.display = "none";
@@ -42,15 +42,16 @@ document.getElementById("travel-text").oninput = () =>{
     
 }
 
-document.getElementsByClassName(".button").onclick = () => {
+document.getElementsByClassName(".button").oninput = () => {
     const color = document.getElementsByClassName("button").value;
     const heart = document.getElementById("heart");
     const redButton = document.getElementById("red-button");
     const greenButton = document.getElementById("green-button");
     const blueButton = document.getElementById("blue-button");
 
+
     if(color == "red"){
-        heart.style.backgroundcolor = "red";
+        heart.style.color = "red";
     }
     else if(color == "green"){
         heart.style.color = "green";
