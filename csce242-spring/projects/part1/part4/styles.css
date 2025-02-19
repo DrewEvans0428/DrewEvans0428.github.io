@@ -35,11 +35,12 @@
     color: teal;
     display: block;
     padding: 10px;
+    font-size: 20px;
 }
 
 #main-nav a:hover{
-    background-color: lightgray;
-    color: teal;
+    color: white;
+    text-decoration: underline;
     box-shadow: inset;
 }
 
@@ -162,6 +163,7 @@
     width: 70%;
     margin: auto;
     padding: 25px;
+    font-size: 20px;
 }
 
 #contact-form{
@@ -169,12 +171,19 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
+    background-color: rgba(32, 178, 170, 0.6);
+    border-radius: 5px;
+}
+
+#contact-button{
+    width: 100px;
+    align-self: center;
 }
 
 .contact-inputs{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-self: flex-start;
     padding: 5px;
 }
 
@@ -187,7 +196,14 @@
 #consultaion-container{
     display: flex;
     align-items: flex-start;
-    text-align: left;
+    text-align: center;
+}
+
+#consultation-form{
+    align-self: center;
+    font-size: 20px;
+    padding: 20px;
+    
 }
 
 #note-text{
