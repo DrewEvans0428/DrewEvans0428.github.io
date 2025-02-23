@@ -1,0 +1,58 @@
+body{
+    background-color: tan;
+    text-align: center;
+    align-items: center;
+}
+
+h1{
+    color: teal;
+    text-align: center;
+}
+
+h2{
+    color: coral;
+    text-align: center;
+}
+
+#draw-stairs{
+    display: flex;
+    justify-content: center;
+    margin-left: 350px;
+}
+
+#ladder{
+    border-right: 10px solid black;
+    border-left: 10px solid black;
+    width:20%;
+    margin:auto;
+    padding:5px 0;
+    display: none;
+}
+
+.rules{
+    background:black;
+    height:5px;
+    border:none;
+    margin:50px 0;
+}
+
+.tread{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: black;
+    margin: 50px 0;
+    height: 5px;
+    border: none;
+}
+
+#climb-stairs{
+    display: none;
+    margin: auto;
+    gap: 10px;
+}
+
+#climber{
+    display: none;
+}
+
+

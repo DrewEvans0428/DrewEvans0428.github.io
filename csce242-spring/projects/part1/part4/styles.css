@@ -104,18 +104,26 @@
 
 .stylist-container{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     gap: 10px;   
     font-size: 20px;
+}
+
+#jen-evans{
+    padding: 20px;
+    border-bottom: 1px solid gray;
 }
 
 .stylist-container img{
     width: 250px;
     height: 250px;
 }
+
 #services-content{
     text-align: center;
 }
+
 .services-area{
     display: grid;
     grid-template-columns: 1fr;
@@ -159,6 +167,10 @@
     color: teal;
 }
 
+#about-content h2{
+    text-align: center;
+}
+
 #contact-content{
     width: 70%;
     margin: auto;
@@ -166,6 +178,9 @@
     font-size: 20px;
 }
 
+#contact-content h2{
+    text-align: center;
+}
 #contact-form{
     width: 90%;
     display: flex;
@@ -233,6 +248,18 @@
 
     .image-container{
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .stylist-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;   
+        font-size: 20px;
+    }
+
+    #jen-evans{
+        border-bottom: none;
     }
 
     .services-area{

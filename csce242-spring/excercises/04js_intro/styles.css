@@ -190,6 +190,10 @@ main {
     margin:0 5px;
 }
 
+#reset-button{
+    
+}
+
 #main-nav a, #sub-nav a {
     color:white;
     text-decoration: none;  /* remove the underlines */
