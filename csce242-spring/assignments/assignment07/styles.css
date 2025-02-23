@@ -15,9 +15,8 @@ h2{
 }
 
 #draw-stairs{
-    display: flex;
     justify-content: center;
-    margin-left: 350px;
+    margin: auto;
 }
 
 #ladder{
