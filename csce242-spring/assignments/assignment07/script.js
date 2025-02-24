@@ -14,7 +14,7 @@ document.getElementById("draw-stairs").onclick = () => {
         hr.classList.add("tread");
         addLadder.appendChild(hr);
     }
-
+    //Displays the climber
     climber.style.display = "block";
     climber.style.position = "absolute";
     //Got position numbers through trial and error
@@ -32,10 +32,10 @@ document.getElementById("climb-stairs").onclick = () => {
     let step = 0;
     let topSteps = 5; // Got the 5 value based on the amount of steps that were taken. Used trial and error to calculate the value.
     let climber = document.getElementById("climber");
-
-    let stepInterval = setInterval(() => {
+    //Use setInterval to determine how long the climber moves and at what speed
+    setInterval(() => {
         if (step < topSteps) {
-            //Moves climber up 100 pixels, used parseInt to grab the value of the previous position
+            //Moves climber up 100 pixels, used parseInt to grab the value of the previous position, took alot of attempts to get the right increment
             climber.style.bottom = (parseInt(climber.style.bottom) + 75) + "px";
 
             //The modulus determines if it is an even or odd step, which determines the position
