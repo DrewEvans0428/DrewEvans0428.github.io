@@ -48,10 +48,6 @@ document.getElementById("climb-stairs").onclick = () => {
             //Increments the step
             step++;
         }
-        else{
-            //Learned clearInterval from w3schools on JS timing page
-            clearInterval(stepInterval);
-        } 
         //The 1000 is the interval time in milliseconds
     }, 1000);
 }
