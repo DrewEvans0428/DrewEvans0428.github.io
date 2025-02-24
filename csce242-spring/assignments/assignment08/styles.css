@@ -1,0 +1,24 @@
+body{
+    background-color: beige;
+    text-align: center;
+}
+
+h1{
+    color: teal;
+}
+
+h2{
+    color: coral;
+}
+
+h4{
+    color: teal;
+}
+
+#popup{
+    display: hidden;
+    box-shadow: 5px 10px;
+    text-align: center;
+    background-color: bisque;
+    margin: auto;
+}

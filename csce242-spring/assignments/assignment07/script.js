@@ -1,4 +1,4 @@
-document.getElementById("draw-stairs").onclick = () => {
+document.getElementById("draw-stairs").onclick = (event) => {
     let addLadder = document.getElementById("ladder");
     let climbButton = document.getElementById("climb-stairs");
     let climber = document.getElementById("climber");
@@ -6,7 +6,8 @@ document.getElementById("draw-stairs").onclick = () => {
     //Displays the ladder after draw stairs is clicked
     addLadder.style.display = "block";
     
-
+    //Found event.currentTarget in loops example 
+    event.currentTarget.disabled = true;
     //Used 7 to get exactly ten links since it came with 3 bars when defaulted
     for (let i=0; i < 7; i++){
         //Portia helped me construct this for loop
