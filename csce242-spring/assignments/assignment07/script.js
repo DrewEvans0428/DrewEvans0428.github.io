@@ -50,5 +50,5 @@ document.getElementById("climb-stairs").onclick = () => {
             step++;
         }
         //The 1000 is the interval time in milliseconds
-    }, 1000);
+    }, 1500);
 }
