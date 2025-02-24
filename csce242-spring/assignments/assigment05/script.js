@@ -1,9 +1,9 @@
 const helloColumn = document.getElementById("hello-column");
-const hello = document.getElementById("hello");
+let hello = document.getElementById("hello");
 
 //hello function
 const putHello = () => {
-    const helloAdd = document.getElementById("hello");
+    let helloAdd = document.getElementById("hello");
     helloAdd.innerHTML = "hello";
 }
 

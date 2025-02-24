@@ -16,9 +16,10 @@ h4{
 }
 
 #popup{
-    display: hidden;
+    display: none;
     box-shadow: 5px 10px;
     text-align: center;
     background-color: bisque;
     margin: auto;
+    width: 50%;
 }
