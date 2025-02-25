@@ -17,9 +17,13 @@
         h4.onclick = () => {
             const popup = document.getElementById("popup");
             popup.style.display = "block";
-            document.getElementById("popup").innerHTML = 
+            document.getElementById("popup-title").innerHTML = 
             `${task}`;
             personImage.src = `${tasks[task]}`;
         }
             
     };
+
+    document.getElementById("close").onclick = () => {
+        popup.style.display = "none";
+    }

@@ -15,11 +15,34 @@ h4{
     color: teal;
 }
 
+h4:hover{
+    cursor: pointer;
+}
+
 #popup{
     display: none;
     box-shadow: 5px 10px;
     text-align: center;
     background-color: bisque;
     margin: auto;
-    width: 50%;
+    width: auto;
+    position: absolute;
+    bottom: 250px;
+    left: 150px;
+    padding: 30px;
+   
+}
+
+#popup img{
+    height: 300px;
+    width: 300px;
+}
+
+#close{
+    position: absolute;
+    top: 5px;
+}
+
+#close :hover{
+    cursor: pointer;
 }
