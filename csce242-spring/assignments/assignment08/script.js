@@ -11,10 +11,10 @@
 
 
     for(let task in tasks){
-        const h2 = document.createElement("h2");
-        section.append(h2);
-        h2.innerHTML = `${task}`;
-        h2.onclick = () => {
+        const h4 = document.createElement("h4");
+        section.append(h4);
+        h4.innerHTML = `${task}`;
+        h4.onclick = () => {
             const popup = document.getElementById("popup");
             popup.style.display = "block";
             document.getElementById("popup").innerHTML = 
