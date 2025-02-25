@@ -1,11 +1,11 @@
 
     const tasks = [];
-    tasks["Crazy Clown"] = "./images/clown.jpg";
-    tasks["Happy Birthday"] = "./images/birthday.jpg";
-    tasks["It's Raining"] = "./images/rain.jpg";
-    tasks["Quiet Time"] = "./images/read.jpg";
-    tasks["Working Hard"] = "./images/shovel.jpg";
-    tasks["Work from Home"] = "./images/work.jpg";
+    tasks["Crazy Clown"] = "images/clown.jpg";
+    tasks["Happy Birthday"] = "images/birthday.jpg";
+    tasks["It's Raining"] = "images/rain.jpg";
+    tasks["Quiet Time"] = "images/read.jpg";
+    tasks["Working Hard"] = "images/shovel.jpg";
+    tasks["Work from Home"] = "images/work.jpg";
     const section = document.getElementById("items");
     let personImage = document.getElementById("person");
 
