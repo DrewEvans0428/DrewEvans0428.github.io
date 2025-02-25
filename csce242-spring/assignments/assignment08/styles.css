@@ -46,3 +46,14 @@ h4:hover{
 #close :hover{
     cursor: pointer;
 }
+
+/*Added media query since position absolute kept the popup
+on the far left on larger resolutions*/
+
+@media only screen and (min-width: 850px){
+    #popup{
+        position: absolute;
+        bottom: 250px;
+        left: 550px;
+    }
+}
