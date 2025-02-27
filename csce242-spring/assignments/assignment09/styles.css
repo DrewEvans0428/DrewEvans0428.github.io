@@ -35,5 +35,21 @@ h2{
 }
 
 #pizza-popup{
-    
+    color: orangered;
+}
+.w3-container{
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 30px;
+}
+
+
+.w3-container img{
+height: 350px;
+width: 350px;
+
+
 }

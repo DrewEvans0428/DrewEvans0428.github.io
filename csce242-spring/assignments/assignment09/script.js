@@ -9,7 +9,7 @@ class Pizza {
     }
 
     get item() {
-        const pizzaSection = document.createElement("section");
+        const pizzaSection = document.createElement("div");
         pizzaSection.classList.add("pizza");
 
         const heading = document.createElement("h3");
@@ -41,13 +41,18 @@ class Pizza {
 
         pizzaContent.innerHTML = "";
 
+        const heading = document.createElement("h3");
+        heading.innerText = this.pizzaType;
+        pizzaContent.appendChild(heading);
+        
+
         const img = this.picture(this.pic);
         pizzaContent.appendChild(img);
 
-        pizzaContent.append(this.content("Toppings", this.toppings));
-        pizzaContent.append(this.content("Sauce ", this.sauce));
-        pizzaContent.append(this.content("Cheese ", this.cheese));
-        pizzaContent.append(this.content("Price ", this.price));
+        pizzaContent.append(this.content("<strong>Toppings</strong>", this.toppings));
+        pizzaContent.append(this.content("<strong>Sauce</strong>", this.sauce));
+        pizzaContent.append(this.content("<strong>Cheese</strong>", this.cheese));
+        pizzaContent.append(this.content("<strong>Price</strong>", this.price));
 
         modal.style.display = "block";
 
