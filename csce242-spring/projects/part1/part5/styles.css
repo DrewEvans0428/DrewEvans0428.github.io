@@ -4,6 +4,7 @@ body{
 }
 
 #main-nav {
+    display: none;
     width: 100%;
     padding: 10px 0;
     text-align: center;
@@ -48,8 +49,8 @@ body{
     flex-direction: column;
     cursor: pointer;
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 20px;
+    left: 15px;
 }
 
 .bar{
@@ -348,6 +349,10 @@ body{
 }
 
 @media only screen and (min-width: 850px){
+    #main-nav{
+        display: flex;
+    }
+    
     #main-nav ul{
         flex-direction: row;
         justify-content: center;
