@@ -1,6 +1,6 @@
 
 body{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:century gothic;
 }
 
 #main-nav {
@@ -43,6 +43,23 @@ body{
     box-shadow: inset;
 }
 
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.bar{
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 10px 0;
+    transition: 0.3s;
+}
+
 #main-header{
     text-align: center;
     background-color: black;
@@ -74,6 +91,7 @@ body{
 
 #slideshow img {
     max-width: 100%;
+    object-fit: cover;
 }
 
 .hidden{
@@ -92,7 +110,7 @@ body{
 }
 
 .stylist{
-    width: 80%;
+    width: 100%;
     padding: 20px;
     text-align: center;
     border-spacing: 5px;
@@ -107,7 +125,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 10px;   
     font-size: 20px;
 }
 
@@ -136,7 +153,6 @@ body{
 
 .service{
     background-color: rgba(0, 0, 0, 0.2);
-
     border-radius: 5px;
 }
 
@@ -150,6 +166,14 @@ body{
 .services-area p{
     font-size: 20px;
     color: teal;
+}
+
+.service img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
 }
 
 #haircut-image{
@@ -264,23 +288,30 @@ body{
 }
 
 #consultation-content{
-    width: 70%;
+    width: 80%;
     margin: auto;
     padding: 25px;
 }
 
-#consultaion-container{
+#consultation-container{
     display: flex;
     flex-direction: column;
     gap: 25px;
     align-items: center;
+    padding: 30px;
+    border-radius: 10px;
 }
 
 #consultation-form{
-    font-size: 20px;
+    width: 50%;
+    font-size: 25px;
     padding: 20px;
     background-color: rgba(32, 178, 170, 0.6);
     border-radius: 5px;
+}
+
+#consultation-form input{
+    font-size: 20px;
 }
 
 #consultation-form label {
@@ -332,6 +363,10 @@ body{
 
     #main-nav li:last-child{
         border-right: none;
+    }
+
+    .hamburger-menu{
+        display: none;
     }
 
     .image-container{
