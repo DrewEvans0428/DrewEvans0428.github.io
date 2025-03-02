@@ -69,8 +69,8 @@ window.onload = () => {
     pizzas.push(new Pizza("Pepperoni", "pepperoni, basil", "Tomato/Marinara", "Mozzarella", "$8", "pep.jpg"));
     pizzas.push(new Pizza("Hawaiian", "Pineapple, Ham, Jalapenos", "Tomato Sauce", "Mozzarella", "$20.99", "hawaiian.jpg"));
     pizzas.push(new Pizza("Deluxe", "Pepperoni, Onions, Mushrooms, Peppers", "Tomato Sauce", "Provolone, Mozzarella", "$20.99", "deluxe.jpg"));
-    pizzas.push(new Pizza("Spinach & Feta", "Onions, Spinach", "Alfredo Sauce", "Provolone, Feta, Asiago", "$20.99", "spin.jpg"));
-    pizzas.push(new Pizza("Pacific Veggie", "Onions, Diced Tomatoes, Black Olives, Spinach, Mushrooms", "Tomato Sauce", "Provolone, Feta", "$20.99", "veggie.jpg"));
+    pizzas.push(new Pizza("Spinach", "Onions, Spinach", "Alfredo Sauce", "Provolone, Feta, Asiago", "$20.99", "spin.jpg"));
+    pizzas.push(new Pizza("Veggie", "Onions, Diced Tomatoes, Black Olives, Spinach, Mushrooms", "Tomato Sauce", "Provolone, Feta", "$20.99", "veggie.jpg"));
 
     for (let i in pizzas) {
         pizzaList.append(pizzas[i].item);
