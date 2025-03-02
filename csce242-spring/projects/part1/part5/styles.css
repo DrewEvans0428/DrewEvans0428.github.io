@@ -348,6 +348,13 @@ body{
     font-weight: bold
 }
 
+#main-footer{
+    background-color: black;
+    color: teal;
+    padding: 10px;
+    text-align: center;
+}
+
 @media only screen and (min-width: 850px){
     #main-nav{
         display: flex;
