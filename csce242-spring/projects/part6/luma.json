@@ -1,0 +1,75 @@
+
+{
+    "homePage":{
+        "_id":1,
+        "title": "Luma Salon",
+        "subtitle": "Where We Build Relationships With Clients"
+        
+       },
+
+
+    "services": [
+        {
+            "_id":2,
+            "service":"Hair Cuts",
+            "Stylists": "Jen & Rhonda",
+        "Description": "All pricing is dependent on the stylist, and how long the haircut might take. Here at Luma Salon we know how to do all types of haircuts no matter the length.
+                    Some of our haircuts include bobs, pixie cuts, layered cuts, Lobs, and undercuts. Hair services are also not limited to  just women, we have many male clients who come in regularly and get all ranges of haircuts.",
+        "img-name":"images/haircut.jpg"
+        },
+        {
+            "_id":3,
+            "service":"Waxings",
+            "Stylists":"Jen & Rhonda",
+            "Description":"Facial Waxings are also dependent on the stylist. They are normally a cheaper option as theyre normally pretty quick.
+                    This normally consists of an eyebrow touchup, using hot was and a waxing strip. This service is offered to both male and female clients.",
+            "img-name":"images/waxing.jpg"
+        },
+        {
+            "_id":4,
+            "service":"Coloring",
+            "Stylists":"Jen & Rhonda",
+            "Description":"Our coloring treatments normally take a little longer than other services. some of our coloring services
+                    consist of highlights, lowlights, base color, and gloss. Highlights are used to add lighter shades to hair,
+                    they can be any color. Lowlights are subtle highlights that add dimension and depth to your hair color,
+                    theyre unlike normal highlights as they are more subtle than highlights.",
+            "img-name":"images/coloring.jpg"
+        },
+        {
+            "_id":5,
+            "service":"Head Spa Treatments",
+            "Stylists":"Jenny",
+            "Description":"Our headspa treatments are new to Luma Salon! It is led by Jenny and she also bases price based on time and what is needed/wanted. Come enjoy these soothing head spas at Luma Salon!",
+            "img-name":"images/mermaid_spa.jpg"
+        }
+],
+
+    "stylists":[
+        {
+        "_id":6,
+        "stylist":"Jen Evans",
+        "img-name":"images/jennifer_evans.jpg",
+        "first-paragraph":"Since 2001, I have dedicated my career to enhancing the beauty and confidence of my clients. I began my journey in downtown Charleston, and later relocated
+                        to West Ashley. In 2014, Rhonda Reeves and I opened Luma Salon, where I continue to expand my knowledge of hair and build strong relationships with my clients.",
+        "second-paragraph":"I believe that professionalism and dependability are key to a successful client experience. 
+                        I prioritize listening to my clients' needs and using my experience to create enjoyable and personalized services.",
+        "third-paragraph":" When I'm not behind the chair, I cherish spending quality time with my family and friends, enjoying the simple moments that make life special."
+    },
+    {
+        "_id":7,
+        "stylist":"Rhonda Reeves",
+        "img-name":"images/rhonda_reeves.jpg",
+        "first-paragraph":"Born and raised in Charleston, I have been in the cosmetics industry for over 25 years as a hair stylist, business owner, and instructor.
+                       The experiences I have gained while being behind the chair, and the relationships I have built with clients, is what keeps me passionate about my career.",
+        "second-paragraph":"I love sharing my knowledge and serving as a mentor to new stylists entering the industry. In 2014, Jennifer Evans and I opened Luma Salon, where we strive to make 
+                       everyone who walks in our door feel like a family.",
+        "third-paragraph":"In my free time, I love spending time with my family and friends, and enjoying all that Charleston has to offer."
+    }
+    ],
+    "footer":{
+        "_id":8,
+        "text":"Thank you for Vsiting! | Luma Salon, 746 Saint Andrews Blvd, Charleston, SC | (843)-297-4807"
+    }
+    
+    
+}
