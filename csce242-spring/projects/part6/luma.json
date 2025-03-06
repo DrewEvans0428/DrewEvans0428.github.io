@@ -1,7 +1,7 @@
  [
         {
             "_id":1,
-            "service":"Hair Cuts",
+            "Name":"Hair Cuts",
             "Stylists": [
                 "Jennifer Evans",
                 "Rhonda Reeves"
@@ -15,22 +15,22 @@
                 "Lobs",
                 "undercuts"
             ],
-        "img-name":"images/haircut.jpg"
+        "img_name":"images/haircut.jpg"
         },
         {
             "_id":2,
-            "service":"Waxings",
+            "Name":"Waxings",
             "Stylists":[
                 "Jennifer Evans",
                 "Rhonda Reeves"
             ],
             "pricing":"Dependent on stylist, but average price is around $20",
             "Description":"Facial Waxings are also dependent on the stylist. They are normally a cheaper option as theyre normally pretty quick. This normally consists of an eyebrow touchup, using hot wax and a waxing strip. This service is offered to both male and female clients.",
-            "img-name":"images/waxing.jpg"
+            "img_name":"images/waxing.jpg"
         },
         {
             "_id":3,
-            "service":"Coloring",
+            "Name":"Coloring",
             "Stylists":[
                 "Jennifer Evans",
                 "Rhonda Reeves"
@@ -43,14 +43,16 @@
                 "base color",
                 "gloss"
             ],
-            "img-name":"images/coloring.jpg"
+            "img_name":"images/coloring.jpg"
         },
         {
             "_id":4,
-            "service":"Head Spa Treatments",
-            "Stylists":"Jenny",
+            "Name":"Head Spa Treatments",
+            "Stylists":[
+                "Jenny"
+                ],
             "pricing":"Dependent on time, typically around $60",
             "Description":"Our headspa treatments are new to Luma Salon! Come enjoy these soothing head spas at Luma Salon!",
-            "img-name":"images/mermaid_spa.jpg"
+            "img_name":"images/mermaid_spa.jpg"
         }
 ]
