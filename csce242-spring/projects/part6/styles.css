@@ -160,6 +160,7 @@ body{
     margin-bottom: 5px;
     display: grid;
     grid-template-columns: 1fr;
+    justify-content: space-between;
 }
 
 .service ul li{
@@ -421,10 +422,12 @@ body{
 
     .service{
         grid-template-columns: 1fr 1fr;
+        text-align: center;
     }
 
-    .services-area{
-        grid-template-columns: 1fr 1fr;
+    #services-area{
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
     }
 
     #home-content{
