@@ -156,16 +156,30 @@ body{
 .service{
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
-.services-area{
+.service ul li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.service p{
+    color: teal;
+    font-size: 20px;
+}
+
+#services-area{
     display: grid;
     grid-template-columns: 1fr;
     gap: 25px;
     text-align: center;
 }
 
-.services-area p{
+#services-area p{
     font-size: 20px;
     color: teal;
 }
@@ -403,6 +417,10 @@ body{
 
     #jen-evans{
         border-bottom: none;
+    }
+
+    .service{
+        grid-template-columns: 1fr 1fr;
     }
 
     .services-area{

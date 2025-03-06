@@ -16,13 +16,15 @@ const showServices = async() => {
 
     services.forEach((service)=>{
         const div = document.createElement("div");
-        servicesSection.append(div);
-        const h3 = document.createElement("h3");
-        h3.innerHTML = service.service;
-        div.append(h3);
+        div.classList.add("service");
+       
+        const h2 = document.createElement("h2");
+        h2.innerHTML = service.Name;
+        div.append(h2);
 
         const img = document.createElement("img");
         img.src = service.img_name;
+        div.append(img);
 
         const ul = document.createElement("ul");
         div.append(ul);
@@ -41,6 +43,8 @@ const showServices = async() => {
         const p = document.createElement("p");
         p.innerHTML = service.Description;
         div.append(p);
+
+        servicesSection.appendChild(div);
 
     });
 }
