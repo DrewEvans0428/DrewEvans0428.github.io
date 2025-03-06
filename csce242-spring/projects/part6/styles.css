@@ -57,7 +57,8 @@ body{
     width: 35px;
     height: 5px;
     background-color: white;
-    margin: 10px 0;
+    margin: 5px 5px;
+    font-size: 5px;
     transition: 0.3s;
 }
 
