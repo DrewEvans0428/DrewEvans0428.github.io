@@ -44,7 +44,7 @@ const showServices = async() => {
         p.innerHTML = service.Description;
         div.append(p);
 
-        servicesSection.appendChild(div);
+        servicesSection.append(div);
 
     });
 }
