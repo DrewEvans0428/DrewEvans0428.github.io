@@ -61,6 +61,11 @@ body{
     padding: 10px;
 }
 
+.flex-container ul li{
+    list-style-type: none;
+    text-decoration: none;
+}
+
 #main-nav a:hover{
     background-color: white;
     color: dodgerblue;
