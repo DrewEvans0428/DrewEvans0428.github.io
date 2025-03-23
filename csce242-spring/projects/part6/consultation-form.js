@@ -1,9 +1,10 @@
 //https://web3forms.com
-const form = document.getElementById("contact-form");
+const form = document.getElementById("consultation-form");
 const result = document.getElementById("result");
 
 form.addEventListener('submit', function(e){
     e.preventDefault();
+
     result.style.display = "block";
     const formData = new FormData(form);
     const object = Object.fromEntries(formData);
